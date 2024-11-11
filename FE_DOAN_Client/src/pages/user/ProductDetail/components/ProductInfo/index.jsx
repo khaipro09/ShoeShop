@@ -250,71 +250,64 @@ function ProductInfo({
       key: '1',
       title: `1) BẢO HÀNH CÓ CAM KẾT TRONG 12 THÁNG
 
-- RIÊNG Phụ kiện có điện AVA bảo hành 3 tháng. Đồng hồ thời trang chỉ bảo hành bộ máy, không bảo hành dây, vỏ, mặt kính.
+  - Áp dụng: Chỉ áp dụng cho sản phẩm chính (giày dép), KHÔNG áp dụng cho phụ kiện kèm theo sản phẩm chính..
 
-- Chỉ áp dụng cho sản phẩm chính, KHÔNG áp dụng cho phụ kiện đi kèm sản phẩm chính.
+  - Thời gian bảo hành:
 
-+ Bảo hành trong vòng 15 ngày (tính từ ngày SHOESTORE nhận máy ở trạng thái lỗi và đến ngày gọi khách hàng ra lấy lại máy đã bảo hành).
-
-+ Sản phẩm không bảo hành lại lần 2 trong 30 ngày kể từ ngày máy được bảo hành xong.
-
-+ Nếu SHOESTORE vi phạm cam kết (bảo hành quá 15 ngày hoặc phải bảo hành lại sản phẩm lần nữa trong 30 ngày kể từ lần bảo hành trước), Khách hàng được áp dụng phương thức Hư gì đổi nấy ngay và luôn hoặc Hoàn tiền với mức phí giảm 50%.
-
-*Từ tháng thứ 13 trở đi không áp dụng bảo hành cam kết, chỉ áp dụng bảo hành hãng (nếu có).`,
+  + Thời gian bảo hành là 15 ngày (tính từ ngày ShoeStore nhận giày bị lỗi và đến ngày khách hàng nhận lại giày đã bảo hành).
+  
+  - Cam kết bảo hành:
+  
+  + Nếu ShoeStore vi phạm cam kết (bảo hành quá 15 ngày hoặc phải bảo hành lại sản phẩm lần nữa trong 30 ngày), khách hàng được đổi sản phẩm hoặc hoàn tiền với mức phí giảm 50%.
+ 
+  * Hết bảo hành cam kết: Từ tháng thứ 13 trở đi, không áp dụng bảo hành cam kết mà chỉ bảo hành hãng (nếu có).`,
       content: `- Sản phẩm đủ điều kiện bảo hành của hãng.`,
     },
     {
       key: '2',
-      title: `2) HƯ GÌ ĐỔI NẤY NGAY VÀ LUÔN (KHÔNG áp dụng cho Đồng hồ (ngoại trừ 3 hãng ELIO, SKMEI, SMILE KID), phụ kiện có điện)
+      title: `2) CHÍNH SÁCH HỎNG GÌ ĐỔI NẤY
 
-Sản phẩm hư gì thì đổi đó (cùng model, cùng dung lượng, cùng màu sắc...) đối với sản phẩm chính và đổi tương đương đối với phụ kiện đi kèm, cụ thể:
+  - Áp dụng: Đổi ngay sản phẩm tương tự (cùng mẫu, màu sắc, size…) đối với sản phẩm chính. Không áp dụng cho phụ kiện.
 
-2.1) Hư sản phẩm chính thì đổi sản phẩm chính mới
+  - Chi tiết đổi sản phẩm:
 
-- Tháng đầu tiên kể từ ngày mua: miễn phí.
+  + Tháng đầu tiên: Miễn phí đổi sản phẩm chính bị lỗi.
+  + Tháng thứ 2 đến tháng thứ 12: Phí đổi là 10% giá trị hóa đơn mỗi tháng. (Ví dụ: Tháng thứ 2 phí 10%, tháng thứ 3 phí 20%...).
+*Lưu ý: Nếu không có sản phẩm để đổi, áp dụng chính sách bảo hành cam kết hoặc hoàn tiền với mức phí giảm 50%.
 
-- Tháng thứ 2 đến tháng thứ 12: phí 10% giá trị hóa đơn/tháng.
+  - Đổi phụ kiện đi kèm:
 
-(VD: tháng thứ 2 phí 10%, tháng thứ 3 phí 20%...).
+  + Phụ kiện đi kèm được đổi miễn phí trong vòng 12 tháng bằng phụ kiện tương đương ShoeStore đang kinh doanh.
+  + Nếu không có phụ kiện tương đương, áp dụng bảo hành hãng (nếu có).
+  + Không áp dụng cho lỗi phần mềm: Các lỗi phần mềm sẽ được khắc phục mà không đổi sản phẩm.
 
+  - Đổi Full Box (hộp nguyên vẹn):
 
-Lưu ý: Nếu không có sản phẩm chính đổi cho Khách hàng thì áp dụng chính sách Bảo hành có cam kết hoặc Hoàn tiền với mức phí giảm 50%.
-
-2.2) Hư phụ kiện đi kèm thì đổi phụ kiện có cùng công năng mà SHOESTORE đang kinh doanh:
-
-Phụ kiện đi kèm được đổi miễn phí trong vòng 12 tháng kể từ ngày mua sản phẩm chính bằng hàng phụ kiện SHOESTORE đang kinh doanh mới với chất lượng tương đương.
-
-Lưu ý: Nếu không có phụ kiện tương đương hoặc Khách hàng không thích thì áp dụng bảo hành hãng.
-
-2.3) Lỗi phần mềm không áp dụng, mà chỉ khắc phục lỗi phần mềm.
-
-2.4) Trường hợp Khách hàng muốn đổi full box (nguyên thùng, nguyên hộp): ngoài việc áp dụng mức phí đổi trả tại Mục 2.1 thì Khách hàng sẽ trả thêm phí lấy full box tương đương 20% giá trị hóa đơn.`,
-      content: `- Sản phẩm đổi trả phải giữ nguyên 100% hình dạng ban đầu và đủ điều kiện bảo hành của hãng.
-
-- Sản phẩm chỉ dùng cho mục đích sử dụng cá nhân, không áp dụng việc sử dụng sản phẩm cho mục đích thương mại.`,
+  + Khách hàng có thể đổi full box với mức phí đổi trả tại Mục 2 và thêm phí 20% giá trị hóa đơn.
+  + Sản phẩm đổi trả phải giữ nguyên tình trạng và đủ điều kiện bảo hành của hãng.`,
     },
     {
       key: '3',
-      title: `3) HOÀN TIỀN: Áp dụng cho sản phẩm lỗi và không lỗi.
+      title: `3) CHÍNH SÁCH HOÀN TIỀN
 
-- Tháng đầu tiên kể từ ngày mua: phí 20% giá trị hóa đơn.
+  - Sản phẩm lỗi hoặc không lỗi:
 
-- Tháng thứ 2 đến tháng thứ 12: phí 10% giá trị hóa đơn/tháng.
-
-- Riêng phụ kiện có điện AVA: áp dụng hoàn tiền trong 3 tháng với mức phí như trên. Từ tháng thứ 4 trở đi không áp dụng hoàn tiền.`,
+  + Tháng đầu tiên: Phí 20% giá trị hóa đơn.
+  + Tháng thứ 2 đến tháng thứ 12: Phí 10% giá trị hóa đơn/tháng.
+  + Phụ kiện có điện (nếu có): Áp dụng hoàn tiền trong 3 tháng đầu với mức phí tương tự.`,
       content: `- Sản phẩm đổi trả phải giữ nguyên 100% hình dạng ban đầu và đủ điều kiện bảo hành của hãng.
 
-- Thân máy, màn hình không trầy xước (áp dụng cho Điện thoại, Tablet, Laptop, Màn hình máy tính, Máy tính để bàn, Đồng hồ).
+  + Giữ nguyên hình dạng ban đầu: Sản phẩm phải giữ nguyên 100% hình dạng ban đầu và đáp ứng điều kiện bảo hành của hãng.
 
-- Sản phẩm chỉ dùng cho mục đích sử dụng cá nhân, không áp dụng việc sử dụng sản phẩm cho mục đích thương mại.
+  + Tình trạng sản phẩm: Sản phẩm cần được bảo quản trong tình trạng không trầy xước hoặc hư hỏng, đảm bảo sạch sẽ và tương tự lúc mua ban đầu.
 
-- Hoàn trả lại đầy đủ hộp, sạc, phụ kiện đi kèm:
+  + Mục đích sử dụng cá nhân: Chính sách đổi trả chỉ áp dụng cho sản phẩm được mua cho mục đích cá nhân, không áp dụng cho mục đích thương mại.
 
-+ Mất hộp thu phí 2% giá trị hóa đơn đối với nhóm Điện thoại, Tablet, Laptop, Màn hình máy tính, Máy tính để bàn, Đồng hồ, Máy in.
+  -Phụ kiện và hộp đi kèm:
 
-+ Mất phụ kiện thu phí theo giá bán tối thiểu trên website SHOESTORE và chính hãng (tối đa 5% giá trị hóa đơn) cho tất cả nhóm sản phẩm.
-
-- Hoàn trả toàn bộ hàng khuyến mãi. Nếu mất hàng khuyến mãi sẽ thu phí theo mức giá đã được công bố.`,
+  + Hộp sản phẩm: Nếu mất hộp, sẽ áp dụng phí 2% giá trị hóa đơn.
+  + Phụ kiện đi kèm: Nếu mất phụ kiện, phí sẽ được tính theo giá bán tối thiểu trên website ShoeStore hoặc giá của hãng (tối đa 5% giá trị hóa đơn).
+  + Hàng khuyến mãi kèm theo: Khách hàng cần hoàn trả toàn bộ hàng khuyến mãi kèm theo sản phẩm. Nếu hàng khuyến mãi bị mất, sẽ tính phí theo mức giá đã công bố.`,
     },
     // Thêm các dòng khác nếu cần
   ];
